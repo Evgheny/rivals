@@ -195,10 +195,11 @@
   #first_block .desc {
     font-size: 14px;
     line-height: 16px;
+    max-width: 40ch;
   }
   #first_block .bottom-logo {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 34px;
+    line-height: 36px;
     letter-spacing: 5px;
   }
 
@@ -217,8 +218,8 @@
     line-height: 16px;
   }
   #second_block .bottom-logo {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 34px;
+    line-height: 36px;
     letter-spacing: 5px;
   }
 }
