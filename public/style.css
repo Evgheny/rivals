@@ -1,22 +1,22 @@
 @font-face {
   font-family: LogoFont;
-  src: url("../assets/font/logo.ttf") format("truetype");
+  src: url("assets/font/logo.ttf") format("truetype");
 }
 @font-face {
   font-family: ExoBoldItalic;
-  src: url("../assets/font/ExoBoldItalic.ttf") format("truetype");
+  src: url("assets/font/ExoBoldItalic.ttf") format("truetype");
 }
 @font-face {
   font-family: ExoSemiBold;
-  src: url("../assets/font/ExoSemiBold.ttf") format("truetype");
+  src: url("assets/font/ExoSemiBold.ttf") format("truetype");
 }
 @font-face {
   font-family: ExoMedium;
-  src: url("../assets/font/ExoMedium.ttf") format("truetype");
+  src: url("assets/font/ExoMedium.ttf") format("truetype");
 }
 @font-face {
   font-family: ExoRegular;
-  src: url("../assets/font/ExoRegular.ttf") format("truetype");
+  src: url("assets/font/ExoRegular.ttf") format("truetype");
 }
 .header {
   z-index: 1;
@@ -63,7 +63,7 @@
 }
 
 #first_block {
-  background-image: url("../assets/img/bg1.jpg");
+  background-image: url("assets/img/bg1.jpg");
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.7);
   background-repeat: no-repeat;
@@ -139,7 +139,7 @@
 }
 
 #second_block {
-  background-image: url("../assets/img/bg2.png");
+  background-image: url("assets/img/bg2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
