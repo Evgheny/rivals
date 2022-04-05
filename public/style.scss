@@ -1,3 +1,5 @@
+
+
 @font-face {
   font-family: LogoFont;
   src: url("assets/font/logo.ttf") format("truetype");
@@ -23,8 +25,9 @@
   src: url("assets/font/ExoRegular.ttf") format("truetype");
 }
 
-
 .header {
+  position: absolute;
+  width: 100%;
   z-index: 1;
 }
 
@@ -76,7 +79,6 @@
   background-position: center;
   background-size: cover;
   height: 100vh;
-  margin-top: -100px;
 
   .title {
     display: flex;
@@ -191,3 +193,5 @@
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
   }
 }
+
+@import "mobile-style";

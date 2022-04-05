@@ -1,0 +1,51 @@
+@media (max-width: 570px) {
+  .logo {
+    font-size: 16px;
+  }
+
+  .right-info-bar {
+    font-size: 12px;
+  }
+
+  #first_block {
+    .title {
+      font-size: 24px;
+      line-height: 26px;
+    }
+
+    .desc {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    .bottom-logo {
+      font-size: 36px;
+      line-height: 40px;
+      letter-spacing: 5px;
+    }
+  }
+
+  .request_quote {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 18px 18px;
+  }
+
+  #second_block {
+    .title {
+      font-size: 24px;
+      line-height: 26px;
+    }
+
+    .desc {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    .bottom-logo {
+      font-size: 36px;
+      line-height: 40px;
+      letter-spacing: 5px;
+    }
+  }
+}
