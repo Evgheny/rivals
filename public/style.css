@@ -18,6 +18,10 @@
   font-family: ExoRegular;
   src: url("assets/font/ExoRegular.ttf") format("truetype");
 }
+@font-face {
+  font-family: ExoLight;
+  src: url("assets/font/ExoLight.ttf") format("truetype");
+}
 .header {
   position: absolute;
   width: 100%;
@@ -167,6 +171,96 @@
   color: #FFFFFF;
 }
 #second_block .bottom-logo {
+  font-family: LogoFont;
+  font-size: 184px;
+  line-height: 240px;
+  letter-spacing: 10px;
+  position: absolute;
+  float: left;
+  bottom: -100vh;
+  left: 0;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+}
+
+#third_block {
+  background-image: url("assets/img/bg3.png");
+  background-blend-mode: overlay;
+  background-color: rgba(253, 74, 1, 0.8);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#third_block .title {
+  font-family: ExoLight;
+  font-size: 46px;
+  line-height: 58px;
+  color: #FFFFFF;
+  margin-top: 90px;
+}
+#third_block .slider {
+  margin-top: 50px;
+  margin-right: 75px;
+  margin-left: 75px;
+}
+#third_block .slide {
+  font-family: "ExoRegular";
+  font-size: 38px;
+  line-height: 92px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  padding: 20px 20px;
+}
+#third_block .slide1 {
+  background-image: url("assets/img/first_slide.png");
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 300px;
+}
+#third_block .slide2 {
+  background-image: url("assets/img/second_slide.png");
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 300px;
+}
+#third_block .slide3 {
+  background-image: url("assets/img/third_slide.png");
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 300px;
+}
+#third_block .slide4 {
+  background-image: url("assets/img/fourth_slide.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+}
+#third_block .title-slide {
+  font-family: "ExoSemiBold";
+  font-size: 30px;
+  line-height: 34px;
+  color: #FFFFFF;
+  text-align: left;
+}
+#third_block .text-slide {
+  font-family: "ExoLight";
+  font-size: 24px;
+  line-height: 26px;
+  text-align: left;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  width: 400px;
+  margin-top: 20px;
+}
+#third_block .bottom-logo {
   font-family: LogoFont;
   font-size: 184px;
   line-height: 240px;
