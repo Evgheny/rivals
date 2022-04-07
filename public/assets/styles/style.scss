@@ -1,37 +1,71 @@
 @font-face {
   font-family: LogoFont;
-  src: url("assets/font/logo.ttf") format("truetype");
+  src: url("../font/logo.ttf") format("truetype");
 }
 
 @font-face {
   font-family: ExoBoldItalic;
-  src: url("assets/font/ExoBoldItalic.ttf") format("truetype");
+  src: url("../font/ExoBoldItalic.ttf") format("truetype");
 }
 
 @font-face {
   font-family: ExoSemiBold;
-  src: url("assets/font/ExoSemiBold.ttf") format("truetype");
+  src: url("../font/ExoSemiBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: ExoMedium;
-  src: url("assets/font/ExoMedium.ttf") format("truetype");
+  src: url("../font/ExoMedium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: ExoRegular;
-  src: url("assets/font/ExoRegular.ttf") format("truetype");
+  src: url("../font/ExoRegular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: ExoLight;
-  src: url("assets/font/ExoLight.ttf") format("truetype");
+  src: url("../font/ExoLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Segoe;
+  src: url("../font/Segoe.ttf") format("truetype");
 }
 
 .header {
-  position: absolute;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(6px);
   width: 100%;
   z-index: 1;
+
+  .menu {
+    display: flex;
+
+    ul {
+      list-style-type: none;
+    }
+
+    li {
+      font-family: Segoe;
+      font-size: 19px;
+      color: #FFFFFF;
+      margin-right: 60px;
+      transition: 0.3s;
+
+      &:hover {
+        color: #FD4A01;
+        cursor: pointer;
+      }
+    }
+
+    .top {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+    }
+  }
 }
 
 .main_page {
@@ -61,7 +95,7 @@
 }
 
 .work-days {
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .work-days-text {
@@ -75,9 +109,9 @@
 }
 
 #first_block {
-  background-image: url("assets/img/bg1.jpg");
+  background-image: url("../img/bg4.jpg");
   background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.7) ;
+  background-color: rgba(0, 0, 0, 0.5) ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -135,6 +169,12 @@
   display: flex;
   flex-direction: column;
   margin: auto;
+  transition: 0.4s;
+
+  &:hover {
+    background: #FD4A01;
+    color: #FFFFFF;
+  }
 }
 
 .social-media {
@@ -142,6 +182,11 @@
   flex-direction: row;
   justify-content: center;
   margin-top: 55px;
+  transition: 0.3s;
+
+  &:hover {
+    color: #FD4A01;
+  }
 }
 
 .facebook {
@@ -152,10 +197,23 @@
   margin-right: 40px;
 }
 
+svg {
+  path {
+    transition: 0.3s;
+  }
+
+  &:hover {
+    cursor: pointer;
+    path {
+      fill: #FD4A01;
+    }
+  }
+}
+
 
 
 #second_block {
-  background-image: url("assets/img/bg2.png");
+  background-image: url("../img/bg2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -198,9 +256,7 @@
 }
 
 #third_block {
-  background-image: url("assets/img/bg3.png");
-  background-blend-mode: overlay;
-  background-color: rgba(253, 74, 1, 0.8) ;
+  background-image: url("../img/bg3.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -211,6 +267,7 @@
   align-items: center;
 
   .title {
+    z-index: 1;
     font-family: ExoLight;
     font-size: 46px;
     line-height: 58px;
@@ -219,12 +276,14 @@
   }
 
   .slider {
+    z-index: 1;
     margin-top: 50px;
     margin-right: 75px;
     margin-left: 75px;
   }
 
   .slide {
+    z-index: 1;
     font-family: 'ExoRegular';
     font-size: 38px;
     line-height: 92px;
@@ -235,28 +294,28 @@
   }
 
   .slide1 {
-    background-image: url("assets/img/first_slide.png");
+    background-image: url("../img/first_slide.png");
     background-repeat: no-repeat;
     width: 400px;
     height: 300px;
   }
 
   .slide2 {
-    background-image: url("assets/img/second_slide.png");
+    background-image: url("../img/second_slide.png");
     background-repeat: no-repeat;
     width: 400px;
     height: 300px;
   }
 
   .slide3 {
-    background-image: url("assets/img/third_slide.png");
+    background-image: url("../img/third_slide.png");
     background-repeat: no-repeat;
     width: 400px;
     height: 300px;
   }
 
   .slide4 {
-    background-image: url("assets/img/fourth_slide.jpg");
+    background-image: url("../img/fourth_slide.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -295,6 +354,17 @@
     color: rgba(255, 255, 255, 0);
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
   }
+
+  .bg-color {
+    position: absolute;
+    background: rgba(253, 74, 1, 0.8);
+    width: 100%;
+    height: 100vh;
+  }
 }
 
-@import "mobile-style";
+@import "sm-style";
+@import "md-style";
+@import "lg-style";
+@import "xl-style";
+@import "xxl-style";

@@ -1,0 +1,121 @@
+@media (max-width: 1200px) and (min-width: 993px) {
+  .logo {
+    font-size: 30px;
+  }
+
+  .header {
+    .menu {
+      li {
+        font-size: 18px;
+        margin-right: 18px;
+      }
+    }
+  }
+
+  .right-info-bar {
+    font-size: 14px;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+
+  .work-days {
+    margin-top: 15px;
+  }
+
+  #first_block {
+    .title {
+      font-size: 40px;
+      line-height: 42px;
+    }
+
+    .desc {
+      font-size: 24px;
+      line-height: 26px;
+      max-width: 50ch;
+    }
+
+    .bottom-logo {
+      font-size: 34px;
+      line-height: 36px;
+      letter-spacing: 5px;
+    }
+  }
+
+  .request_quote {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 18px 18px;
+  }
+
+  #second_block {
+    .title {
+      font-size: 24px;
+      line-height: 26px;
+    }
+
+    .desc {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    .bottom-logo {
+      font-size: 34px;
+      line-height: 36px;
+      letter-spacing: 5px;
+    }
+  }
+
+  #third_block {
+    .title {
+      z-index: 1;
+      font-size: 24px;
+      line-height: 26px;
+    }
+
+    .slider {
+      margin-top: 25px;
+      margin-right: 55px;
+      margin-left: 55px;
+    }
+
+    .slide {
+      font-size: 12px;
+      line-height: 14px;
+    }
+
+    .slide1 {
+      background-size: cover;
+      width: 400px;
+      height: 300px;
+    }
+
+    .slide2 {
+      background-size: cover;
+      width: 400px;
+      height: 300px;
+    }
+
+    .slide3 {
+      background-size: cover;
+      width: 400px;
+      height: 300px;
+    }
+
+    .slide4 {
+      width: 400px;
+      height: 300px;
+    }
+
+    .title-slide{
+      font-size: 18px;
+      line-height: 20px;
+    }
+
+    .text-slide{
+      font-size: 16px;
+      line-height: 18px;
+      width: 400px;
+      margin-top: 20px;
+    }
+  }
+}
