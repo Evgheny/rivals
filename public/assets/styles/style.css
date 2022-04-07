@@ -240,6 +240,7 @@ svg:hover path {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  position: relative;
 }
 #third_block .title {
   z-index: 1;
