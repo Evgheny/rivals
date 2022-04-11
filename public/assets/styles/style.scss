@@ -29,8 +29,8 @@
 }
 
 @font-face {
-  font-family: Segoe;
-  src: url("../font/Segoe.ttf") format("truetype");
+  font-family: DelaGothicOne;
+  src: url("../font/DelaGothicOne.ttf") format("truetype");
 }
 
 .header {
@@ -48,8 +48,8 @@
     }
 
     li {
-      font-family: Segoe;
-      font-size: 19px;
+      font-family: DelaGothicOne;
+      font-size: 0.7vw;
       color: #FFFFFF;
       margin-right: 60px;
       transition: 0.3s;
@@ -144,8 +144,8 @@
 
   .bottom-logo {
     font-family: LogoFont;
-    font-size: 184px;
-    line-height: 240px;
+    font-size: 6vw;
+    line-height: 5.5vw;
     letter-spacing: 10px;
     position: absolute;
     float: left;
@@ -243,9 +243,9 @@ svg {
 
   .bottom-logo {
     font-family: LogoFont;
-    font-size: 184px;
-    line-height: 240px;
-    letter-spacing: 10px;
+    font-size: 6vw;
+    line-height: 5.5vw;
+    letter-spacing: 5px;
     position: absolute;
     float: left;
     bottom: -100vh;

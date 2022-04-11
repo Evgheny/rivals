@@ -6,7 +6,7 @@
   .header {
     .menu {
       li {
-        font-size: 18px;
+        font-size: 2.5vw;
         margin-right: 18px;
       }
     }
@@ -34,12 +34,6 @@
       line-height: 26px;
       max-width: 50ch;
     }
-
-    .bottom-logo {
-      font-size: 34px;
-      line-height: 36px;
-      letter-spacing: 5px;
-    }
   }
 
   .request_quote {
@@ -59,16 +53,9 @@
       font-size: 24px;
       line-height: 26px;
     }
-
-    .bottom-logo {
-      font-size: 34px;
-      line-height: 36px;
-      letter-spacing: 5px;
-    }
   }
 
   #third_block {
-    display: none;
 
     .title {
       z-index: 1;
